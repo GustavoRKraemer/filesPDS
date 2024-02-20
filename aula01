@@ -9,7 +9,10 @@
 #____________________________________________________________
 #____________________________________________________________
 #____________________________________________________________
-#n1 = float(input('digite um numero:'))
-#n2 = float (input('digite outro numero:'))
-#soma n1 + n2
-#print('Deu {soma}')
+#try:
+#    n1 = float(input('digite um numero:'))
+#    n2 = float (input('digite outro numero:'))
+#except ValueError:
+#    print('Digite um valor valido')
+#soma = n1 + n2
+#print(f'Deu {soma}')
